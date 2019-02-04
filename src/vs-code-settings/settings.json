@@ -1,0 +1,8 @@
+{
+    "html.autoClosingTags": true,
+    "html.suggest.html5": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "window.zoomLevel": 0,
+
+}

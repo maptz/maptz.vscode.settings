@@ -1,0 +1,83 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+i",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+oem_minus",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+oem_plus",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.action.insertCursorBelow"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.action.insertCursorAbove"
+    },
+    {
+        "key": "ctrl+m ctrl+o",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+m ctrl+shift+o",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'jsonc'"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "-keybindings.editor.defineKeybinding",
+        "when": "inKeybindings && keybindingFocus"
+    },
+    {
+        "key": "ctrl+m ctrl+m",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_4",
+        "command": "-editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+m ctrl+shift+m",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus"
+    }
+]
